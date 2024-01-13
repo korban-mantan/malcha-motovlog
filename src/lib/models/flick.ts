@@ -4,7 +4,6 @@ export interface FlickModel {
     name: string
     image: string
     price?: string
-    description: string
     specs: {
       mesin: {
         type: string

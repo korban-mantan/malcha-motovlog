@@ -16,10 +16,15 @@
 </div>
 
 <style>
-	a{
-		padding: 1rem .5rem;
+	a {
+		padding: .5rem .75rem;
+		background: black;
+		color: white;
+		border-radius: 5px;
+		font-size: 10pt;
+	}
+	a:hover {
 		background: red;
-		color: #fff;
 	}
 	.card {
 		background: #fff;
@@ -31,8 +36,6 @@
 		padding: 2rem 1rem;
 		border: 2px #000 solid;
 		border-radius: 10px;
-		cursor: pointer;
-		transition: transform 0.5s ease;
 	}
 
 	.card:hover h4 {
@@ -58,7 +61,9 @@
 		border-radius: 10px;
 	}
 	.card-body {
+		display: block;
+		gap: .2rem;
 		position: absolute;
-		bottom: 0;
+		bottom: 16px;
 	}
 </style>

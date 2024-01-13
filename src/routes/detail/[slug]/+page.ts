@@ -14,7 +14,7 @@ export function load({ params }) {
 
     return {
       props: {
-        flick: flickData,
+        data: flickData,
       },
     };
   }
